@@ -10,7 +10,7 @@
 }
 .name{
     /* margin-top: 10px; */
-    background-color: #4aaaa5;
+    background-color:  #ffe066;
     color: #ffffff;
     height: 65px;
 }
@@ -50,7 +50,7 @@
     font-size: 28px;
     padding: 20px;
     margin: 20px;
-    color: #4aaaa5;
+    color:  #ffe066;
     border-bottom: 2px solid #dddddd;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -69,7 +69,8 @@
 }
 
 .box-title{
-    background-color: #4aaaa5;
+    background-color: #ffe066;
+    ;
     width: 150px;
     text-align: center;
     
@@ -80,7 +81,8 @@
 footer{
     clear: both;
     background-color: #666666;
-    border-top: 3px solid #4aaaa5;
+    border-top: 3px solid #ffe066
+    ;
     width: 100%;
     height: 65px;
     position: fixed;
