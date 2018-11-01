@@ -78,6 +78,9 @@
 .proposal{
     text-align: center;
 }
+.mp-two{
+    margin-left: 50px;
+}
 footer{
     clear: both;
     background-color: #666666;
