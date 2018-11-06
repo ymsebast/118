@@ -46,7 +46,7 @@
     <!-- Progress Page-->
     <div class="card main-body lg">
         <div class="card-title main-title">
-            Track my Progress!
+            Proposal
         </div>
         <div class="card-body">
             <div class="row">
@@ -62,14 +62,41 @@
                 <div class="col-md-6">
                     <img class="ynah" src="./assets/images/ynah.jpg">
                 </div>
+                
             </div>
         </div>
     </div>
+    <div class="card main-body lg">
+            <div class="card-title main-title">
+                    Milestone 1
+                </div>
+        <p class="problem">
+            118 Term Project Progress
+            Graph Problem Solver : Link Analysis
 
-    <footer>
-        Ynah Sebastian
-    </footer>
+            Using Bryan's code and networkx manual for reference, I was able to add options for the user to pick a Link
+            Analysis problem and upload a csv graph.
+            They choose between PageRank or HITS problem solver and depending on which one the
+            user clicks, they are directed to another menu.
 
+            If they picked the pagerank subproblem, they can view the pagerank results through either numpy/scipy
+            interfaces to evaluate the eigenvector calculations
+            through different libraries. It returns a pop-up printing the pagerank dictionary. The menu also lets them
+            view the google numpy transition matrix used in
+            pageranking the graph. I was able to use the pagerank library to label nodes with their pagerank values on
+            the graph, but the values don't align with the nodes.
+
+            If they picked the hits subproblem, they can view the hits results through either numpy/scipy interfaces to
+            evaluate and read both the hubs and authority
+            vecotrs. There is also the option to read the authority or hits matrix in a pop-up.
+
+            This coming week I will keep working on the code and hopefully draw out the graph results from the
+            dictionary outputs from the functions.
+
+        </p>
+    </div>
+
+  
 </body>
 
 </html>
